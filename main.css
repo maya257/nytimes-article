@@ -4,24 +4,38 @@ html {
     font-family: 'Libre Franklin', sans-serif;
 }
 
+
 *, *:before, *:after {
     box-sizing: inherit;
 }
+
 
 button {
   cursor: pointer;
 }
 
+header {
+  width: 100vw;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: #fff;
+}
+
 #main-nav {
   display: block;
-  border: 1px solid black;
+  position: sticky;
 }
 
-.nav-buttons {
+#nav-buttons {
   float: left;
+ /* margin-left: 20em;*/
+  width: 30%;
+  border: 2px solid black;
 }
 
-.nav-buttons button{
+#nav-right button{
+  float:right;
   border-radius: 3px;
   background-color: #6288a5;
   padding: 11px 12px 8px;
@@ -32,17 +46,24 @@ button {
   letter-spacing: 0.05em;
   line-height: 11px;
   text-transform: uppercase;
+  margin-right: 1em;
 }
 
-#brand-title {
+
+svg {
   width: 225px;
   height: 31px;
-  float: left;
+}
+#brand-title {
+  float:left;
+  width: 40%;
+  text-align: center;
 }
 
 #nav-left {
-  padding-top: 1em;
+/*  padding-top: 1em;*/
   float: left;
+  width: 30%;
 }
 
 #nav-left a{
@@ -60,3 +81,4 @@ button {
 #clear {
   clear: left;
 }
+
