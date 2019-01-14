@@ -27,13 +27,6 @@ header {
   position: sticky;
 }
 
-#nav-buttons {
-  float: left;
- /* margin-left: 20em;*/
-  width: 30%;
-  border: 2px solid black;
-}
-
 #nav-right button{
   float:right;
   border-radius: 3px;
@@ -54,6 +47,7 @@ svg {
   width: 225px;
   height: 31px;
 }
+
 #brand-title {
   float:left;
   width: 40%;
@@ -61,7 +55,6 @@ svg {
 }
 
 #nav-left {
-/*  padding-top: 1em;*/
   float: left;
   width: 30%;
 }
