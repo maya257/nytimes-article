@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin');
 html {
     box-sizing: border-box;
+    font-family: 'Libre Franklin', sans-serif;
 }
 
 *, *:before, *:after {
@@ -8,6 +10,9 @@ html {
 
 button {
   cursor: pointer;
+}
+#main-nav {
+  /*position: fixed;*/
 }
 .buttons {
   float:right;
@@ -23,4 +28,16 @@ button {
   letter-spacing: 0.05em;
   line-height: 11px;
   text-transform: uppercase;
+}
+
+#brand-title {
+  width: 225px;
+  height: 31px;
+  margin: auto;
+}
+
+#nav-left a{
+  font-size: 14.25px;
+  font-weight: 700;
+  text-transform: lowercase;
 }
