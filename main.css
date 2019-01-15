@@ -112,6 +112,17 @@ ul {
 #subscribe-section {
   border-left: 1px solid grey;
 }
+
+.subscribe-icon {
+  color: #000;
+  display: inline-block;
+  text-transform: capitalize;
+  font-size: 1em;
+  font-weight: 700;
+  height: 25px;
+  line-height: 15px;
+  padding-bottom: 0;
+}
 .subscribe-icon svg {
   display: inline-block;
   height: 13px;
