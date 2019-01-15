@@ -93,6 +93,7 @@ footer {
 ul {
   list-style-type: none;
   padding: 0;
+  margin: 0;
 }
 
 .clear {
@@ -112,23 +113,18 @@ ul {
   border-left: 1px solid grey;
 }
 
-#footer-copyright ul {
-  display: inline-block;
-  margin: auto;
-  border: 1px solid black;
-}
-
-.copyright {
-  margin: auto;
-  border: 1px solid black;
+#footer-copyright {
+  text-align: center;
   width: 100%;
 }
 
+.copyright {
+  display: inline-block;
+}
 .copyright-li {
   float: left;
   font-size: 11px;
   margin: 1em;
-  border: 1px solid black;
 }
 
 
