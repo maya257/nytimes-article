@@ -2,6 +2,7 @@
 html {
     box-sizing: border-box;
     font-family: 'Libre Franklin', sans-serif;
+    font-size: 14px;
 }
 
 
@@ -89,18 +90,12 @@ svg {
   clear: left;
 }
 
-/
-
-
-
 #home-link {
   float: right;
   color: rgb(98, 136, 165);
   line-height: 11px;
   font-size: 11px;
 }
-
-
 
 .clear {
   clear: both;
@@ -129,7 +124,7 @@ svg {
 .caption-text {
   font-size: 0.9375em;
   line-height: 1.25em;
-  float: left;
+  text-align: left;
   color: #666;
 }
 
@@ -137,6 +132,18 @@ svg {
   color: #888;
   font-size: 0.75em;
   font-weight: 500;
+}
+
+#inflation-caption {
+  font-size: 0.875em;
+}
+
+#inflation-subcaption {
+  font-size: 0.875rem;
+  font-weight: 250;
+  line-height: 1.125rem;
+  font-style: normal;
+  margin: 2em 0 3em;
 }
 
 #main-image img {
@@ -160,7 +167,6 @@ svg {
 
 .article-media {
   width: 100%;
-  height: auto;
 }
 
 .text-content {
