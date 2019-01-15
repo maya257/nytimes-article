@@ -1,18 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin:400,400i,500,500i,600,600i,700,700i,800,800i');
 html {
     box-sizing: border-box;
+    font-family: 'Libre Franklin', sans-serif;
 }
+
 
 *, *:before, *:after {
     box-sizing: inherit;
 }
 
+
 button {
   cursor: pointer;
 }
-.buttons {
-  float:right;
+
+a {
+  text-decoration: none;
 }
-.nav-buttons button{
+
+header {
+  width: 100vw;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: #fff;
+}
+
+#main-nav {
+  display: block;
+  position: sticky;
+}
+
+#nav-right button{
+  float:right;
   border-radius: 3px;
   background-color: #6288a5;
   padding: 11px 12px 8px;
@@ -23,4 +43,156 @@ button {
   letter-spacing: 0.05em;
   line-height: 11px;
   text-transform: uppercase;
+  margin-right: 1em;
 }
+
+
+svg {
+  width: 225px;
+  height: 31px;
+}
+
+#brand-title {
+  float:left;
+  width: 40%;
+  text-align: center;
+}
+
+#nav-left {
+  float: left;
+  width: 30%;
+}
+
+#nav-left a{
+  font-size: 13px;
+  font-weight: 700;
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#nav-left a:hover {
+  text-decoration: underline;
+}
+
+#clear {
+  clear: left;
+}
+
+footer {
+  margin: 2em;
+}
+
+#home-link {
+  float: right;
+  color: rgb(98, 136, 165);
+  line-height: 11px;
+  font-size: 11px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.footer-ul-container {
+  float: left;
+  width: 16.66%;
+}
+
+.footer-ul-container h3 {
+  text-transform: uppercase;
+}
+
+#subscribe-section {
+  border-left: 1px solid grey;
+  padding-left: 0.8em;
+}
+
+.subscribe-icon {
+  color: #000;
+  display: inline-block;
+  text-transform: capitalize;
+  font-size: 1em;
+  font-weight: 700;
+  height: 25px;
+  line-height: 15px;
+  padding-bottom: 0;
+}
+.subscribe-icon svg {
+  display: inline-block;
+  height: 13px;
+  width: 13px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.footer-ul-title {
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 15px;
+  height: 25px;
+  color: rgb(51, 51, 51)
+}
+
+.footer-li {
+  font-size: 14px;
+  line-height: 16px;
+  height: 23px;
+  font-weight: 500;
+  color: black;
+}
+
+.footer-li a:visited, .footer-li a:link {
+  color: black;
+}
+
+.footer-link-bottom-right {
+  font-size: 11px;
+  font-weight: 500;
+  color: black;
+}
+
+.footer-link-bottom-right a:visited, .footer-link-bottom-right a:link {
+  color: black;
+}
+
+#corporate-links {
+  border-bottom: 0.5px solid rgb(153, 153, 153);
+  padding-bottom: 0.8em;
+}
+
+#application-links {
+  padding-top: 0.8em;
+}
+
+#footer-copyright {
+  text-align: center;
+  width: 100%;
+}
+
+.copyright {
+  display: inline-block;
+}
+.copyright-li {
+  float: left;
+  font-size: 11px;
+  margin: 1em;
+}
+
+hr {
+  color: rgb(153, 153, 153);
+}
+
+.copyright-li a:visited, .copyright-li a:link {
+    color: rgb(153, 153, 153);
+}
+
+
+
+
