@@ -100,6 +100,29 @@ ul {
   clear: both;
 }
 
+#main-content {
+  margin: 0 30%;
+}
+
+#date-social {
+  display: inline-block;
+  width: 100%;
+}
+
+#date {
+  float: left;
+}
+
+#social {
+  float: right;
+}
+
+.text-content {
+  font-size: 1.1875rem;
+  line-height: 1.8125rem;
+  margin-bottom: 1.25rem;
+}
+
 .footer-ul-container {
   float: left;
   width: 16.66%;
