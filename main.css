@@ -14,6 +14,10 @@ button {
   cursor: pointer;
 }
 
+a {
+  text-decoration: none;
+}
+
 header {
   width: 100vw;
   position: sticky;
@@ -74,4 +78,41 @@ svg {
 #clear {
   clear: left;
 }
+
+footer {
+  margin: 2em;
+}
+
+#home-link {
+  float: right;
+  color: rgb(98, 136, 165);
+  line-height: 11px;
+  font-size: 11px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.footer-ul-container {
+  float: left;
+  width: 16.66%;
+}
+
+.footer-ul-container h3 {
+  text-transform: uppercase;
+}
+
+#subscribe-section {
+  border-left: 1px solid grey;
+  padding: ;
+}
+
+
+
 
