@@ -110,7 +110,25 @@ ul {
 
 #subscribe-section {
   border-left: 1px solid grey;
-  padding: ;
+}
+
+#footer-copyright ul {
+  display: inline-block;
+  margin: auto;
+  border: 1px solid black;
+}
+
+.copyright {
+  margin: auto;
+  border: 1px solid black;
+  width: 100%;
+}
+
+.copyright-li {
+  float: left;
+  font-size: 11px;
+  margin: 1em;
+  border: 1px solid black;
 }
 
 
