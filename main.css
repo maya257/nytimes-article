@@ -347,9 +347,39 @@ hr {
 #editors-picks {
   top: 110em;
   right: 3em;
+  width: 240px;
+}
+
+
+
+.pick-wrapper {
+  width: 100%;
+  margin: 1em 0;
+}
+
+
+.pick-link {
+  width: 100%;
 }
 
 .pick-img {
+  width: 71px;
+  height: 71px;
+  float: left;
+  margin-right: 1em;
+}
+
+.pick-text {
+  font-size: 13px;
+  text-align: left;
+  color: rgb(51, 51, 51);
+  font-weight: 600;
+  margin-left: 1em;
+}
+
+
+.pick-link:hover .pick-text {
+  text-decoration: underline;
 }
 
 
