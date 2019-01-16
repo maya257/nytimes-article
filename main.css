@@ -103,11 +103,21 @@ svg {
 
 .fa-facebook-f, .fa-twitter, .fa-envelope, .fa-share {
   color: #000;
- 
 }
+
 .fa-circle {
   color: #eee;
 }
+
+.fa-stack {
+  margin-top: 1em;
+}
+
+.right-social {
+  float: right;
+  margin-top: 1em;
+}
+
 /*** MAIN CONTENT ***/
 
 #main-title {
@@ -121,7 +131,7 @@ svg {
 }
 
 #main-content {
-  margin: 0 30%;
+  margin: 3em 30%;
 }
 
 #main-image {
@@ -139,6 +149,10 @@ svg {
   color: #888;
   font-size: 0.75em;
   font-weight: 500;
+}
+
+.end-main-links {
+  
 }
 
 #inflation-theory, #stanford-iframe, #telescope {
@@ -164,17 +178,20 @@ svg {
 }
 
 #date-social {
-  display: inline-block;
   width: 100%;
+  display: inline-block;
 }
 
 #date {
   float: left;
+  margin-top: 1.4em;
 }
 
 #social {
   float: right;
+  margin-bottom: 1.2em;
 }
+
 
 .article-media {
   width: 100%;
