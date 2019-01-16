@@ -2,6 +2,7 @@
 html {
     box-sizing: border-box;
     font-family: 'Libre Franklin', sans-serif;
+    font-size: 14px;
 }
 
 
@@ -25,17 +26,25 @@ header {
   z-index: 1;
   background-color: #fff;
 }
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
 
 #main-nav {
   display: block;
   position: sticky;
 }
 
-#nav-right button{
-  float:right;
+button {
   border-radius: 3px;
   background-color: #6288a5;
-  padding: 11px 12px 8px;
   border: 1px solid #326891;
   color: #fff;
   font-size: 11px;
@@ -43,7 +52,16 @@ header {
   letter-spacing: 0.05em;
   line-height: 11px;
   text-transform: uppercase;
+}
+
+#nav-right button{
+  padding: 11px 12px 8px;
+  float:right;
   margin-right: 1em;
+}
+
+#comment-button button {
+  padding: 11px 70px;
 }
 
 
@@ -79,10 +97,6 @@ svg {
   clear: left;
 }
 
-footer {
-  margin: 2em;
-}
-
 #home-link {
   float: right;
   color: rgb(98, 136, 165);
@@ -90,14 +104,139 @@ footer {
   font-size: 11px;
 }
 
-ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
 .clear {
   clear: both;
+}
+
+.fa-facebook-f, .fa-twitter, .fa-envelope, .fa-share {
+  color: #000;
+}
+
+.fa-circle {
+  color: #eee;
+}
+
+.fa-stack {
+  margin-top: 1em;
+}
+
+.fa-stack:hover .fa-circle {
+  color: #fff;
+}
+
+.right-social {
+  float: right;
+  margin-top: 1em;
+  
+}
+.right-social a {
+  color: #666;
+  margin-left: 1em;
+}
+.right-social a:hover {
+  color: #888;
+}
+
+/*** MAIN CONTENT ***/
+
+#main-title {
+  margin: 0 30%;
+}
+
+#title { 
+  color: #121212;
+  font-size: 29px;
+  max-width: 346.152px;
+}
+
+#main-content {
+  margin: 3em 28%;
+}
+
+#main-image {
+  margin: 0 15%;
+}
+
+.caption-text {
+  font-size: 0.9375em;
+  line-height: 1.25em;
+  text-align: left;
+  color: #666;
+}
+
+.caption-subtext {
+  color: #888;
+  font-size: 0.75em;
+  font-weight: 500;
+}
+
+.end-main-links {
+  color: #888;
+}
+
+.end-main-links:hover {
+  text-decoration: underline;
+}
+
+#inflation-theory, #stanford-iframe, #telescope {
+  width: 100%;
+}
+
+#inflation-caption {
+  font-size: 0.875em;
+}
+
+#inflation-subcaption {
+  font-size: 0.875rem;
+  font-weight: 250;
+  line-height: 1.125rem;
+  font-style: normal;
+  margin: 2em 0 3em;
+}
+
+#main-image img {
+  height: auto;
+  width: 100%;
+  cursor: pointer;
+}
+
+#date-social, #comment-social {
+  width: 100%;
+  display: inline-block;
+}
+
+#date,
+#comment-button {
+  float: left;
+  margin-top: 1.4em;
+}
+
+
+#social{
+  float: right;
+  margin-bottom: 1.2em;
+}
+
+#bottom-social {
+  float: right;
+  margin-top: 0.4em;
+}
+
+
+.article-media {
+  width: 100%;
+  margin: 2em 0;
+}
+
+.text-content {
+  font-size: 1.1875rem;
+  line-height: 1.8125rem;
+  margin-bottom: 1.25rem;
+}
+
+/*** FOOTER ***/
+footer {
+  margin: 2em;
 }
 
 .footer-ul-container {
