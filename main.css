@@ -197,6 +197,10 @@ main {
   text-decoration: underline;
 }
 
+iframe {
+  border: none;
+}
+
 #inflation-theory, #stanford-iframe, #telescope {
   width: 100%;
 }
