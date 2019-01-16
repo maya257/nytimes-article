@@ -10,11 +10,6 @@ html {
     box-sizing: inherit;
 }
 
-
-button {
-  cursor: pointer;
-}
-
 a {
   text-decoration: none;
 }
@@ -43,6 +38,7 @@ p {
 }
 
 button {
+  cursor: pointer;
   border-radius: 3px;
   background-color: #6288a5;
   border: 1px solid #326891;
@@ -147,6 +143,10 @@ svg {
   color: #121212;
   font-size: 29px;
   max-width: 346.152px;
+}
+
+main {
+  position: relative;
 }
 
 #main-content {
@@ -330,6 +330,57 @@ hr {
 
 .copyright-li a:visited, .copyright-li a:link {
     color: rgb(153, 153, 153);
+}
+
+.side-box {
+  position: absolute;
+}
+
+#science-times {
+  top: 158em;
+  right: 4.5em;
+  width: 200px;
+}
+
+#editors-picks {
+  top: 104em;
+  right: 3em;
+  width: 240px;
+}
+
+.pick-wrapper {
+  width: 100%;
+  margin: 1em 0;
+}
+
+
+.pick-link {
+  width: 100%;
+}
+
+.pick-img {
+  width: 71px;
+  height: 71px;
+  float: left;
+  margin-right: 1em;
+}
+
+.pick-text {
+  font-size: 13px;
+  text-align: left;
+  color: rgb(51, 51, 51);
+  font-weight: 600;
+  margin-left: 1em;
+}
+
+.pick-link:hover .pick-text {
+  text-decoration: underline;
+}
+
+#sign-up {
+  width: 100%;
+  margin-top: 1em;
+  padding: 11px 12px 8px;
 }
 
 
