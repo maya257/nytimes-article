@@ -134,6 +134,10 @@ svg {
   font-weight: 500;
 }
 
+#inflation-theory, #stanford-iframe, #telescope {
+  width: 100%;
+}
+
 #inflation-caption {
   font-size: 0.875em;
 }
@@ -167,6 +171,7 @@ svg {
 
 .article-media {
   width: 100%;
+  margin: 2em 0;
 }
 
 .text-content {
