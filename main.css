@@ -147,12 +147,10 @@ svg {
 
 main {
   position: relative;
-  border: 1px solid black;
 }
 
 #main-content {
   margin: 3em 28%;
-  border: 1px solid black;
 }
 
 #main-image {
@@ -336,21 +334,19 @@ hr {
 
 .side-box {
   position: absolute;
-  border: 1px solid black;
 }
 
 #science-times {
-  top: 177em;
-  right: 3.5em;
+  top: 158em;
+  right: 4.5em;
+  width: 200px;
 }
 
 #editors-picks {
-  top: 110em;
+  top: 104em;
   right: 3em;
   width: 240px;
 }
-
-
 
 .pick-wrapper {
   width: 100%;
@@ -377,9 +373,14 @@ hr {
   margin-left: 1em;
 }
 
-
 .pick-link:hover .pick-text {
   text-decoration: underline;
+}
+
+#sign-up {
+  width: 100%;
+  margin-top: 1em;
+  padding: 11px 12px 8px;
 }
 
 
