@@ -101,6 +101,13 @@ svg {
   clear: both;
 }
 
+.fa-facebook-f, .fa-twitter, .fa-envelope, .fa-share {
+  color: #000;
+ 
+}
+.fa-circle {
+  color: #eee;
+}
 /*** MAIN CONTENT ***/
 
 #main-title {
