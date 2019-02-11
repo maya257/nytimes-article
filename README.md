@@ -7,5 +7,9 @@ https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-but
 
 ## Contributors
 
-1. Maya Douglas ([@mcrd25](https://github.com/mcrd25))
-2. Adriaan Beiertz ([@adriaanbd](https://github.com/adriaanbd))
+Adriaan Beiertz ([@adriaanbd](https://github.com/adriaanbd))
+<br>
+Maya Douglas ([@mcrd25](https://github.com/mcrd25))
+
+## project link
+https://vibrant-engelbart-50c48a.netlify.com/
